@@ -11,7 +11,7 @@ namespace GerenciadorDeTarefas.Config.Models
         public string Senha { get; set; }
         public Nivel NivelDeAcesso { get; set; } = Nivel.Usuario;
         public Guid Guid { get; set; } = Guid.NewGuid();
-        public List<Tarefa> Tarefas { get; set; } = new List<Tarefa>();
+        public virtual List<Tarefa> Tarefas { get; set; } = new List<Tarefa>(); 
     }
     public enum Nivel
     {

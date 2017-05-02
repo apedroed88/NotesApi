@@ -1,4 +1,6 @@
-﻿namespace ConsoleApplication
+﻿using System;
+
+namespace NotesApi
 {
     public class Program
     {
